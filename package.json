@@ -1,8 +1,9 @@
 {
-  "name": "template",
-  "version": "0.0.1",
+  "name": "rna-gloomhaven",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
+    "reset": "cd android && ./gradlew clean && cd .. && watchman watch-del-all && npm start -- --reset-cache",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",

@@ -2,7 +2,7 @@ import {StackNavigationOptions} from '@react-navigation/stack';
 import React from 'react';
 import {Text, View} from 'react-native';
 
-const HomeScreen = () => {
+const Component = () => {
   return (
     <View>
       <Text>App</Text>
@@ -14,7 +14,7 @@ const options: StackNavigationOptions = {
   headerShown: false,
 };
 
-export default {
-  Component: HomeScreen,
+export const HomeScreen = {
+  Component,
   options,
 };
